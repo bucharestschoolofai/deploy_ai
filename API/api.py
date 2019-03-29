@@ -8,7 +8,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 app = Flask(__name__)
 
-# Load MobileNet
+# Load MobileNets
 mobile_net = MobileNet()
 
 # The following line is necessary because Flask runs on a different thread than the loaded model
