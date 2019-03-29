@@ -1,6 +1,6 @@
+import tensorflow as tf
 from keras.applications.mobilenet import MobileNet
 from keras import backend as K
-import tensorflow as tf
 from flask import Flask
 from flask import request
 import cv2
